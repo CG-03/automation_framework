@@ -1,0 +1,7 @@
+test_cases:
+  - name: "Disable Backend Virtual Service"
+    target_vs_name: "backend-vs-t1r_1000-1"
+    action:
+      method: "PUT"
+      payload:
+        enabled: false
